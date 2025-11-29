@@ -18,14 +18,11 @@ Production-ready `.cursor/rules` configuration for Unity 6.2+ projects. Modern A
 
 1. Clone the repository into your Unity project root:
 
-```
 cd YourUnityProject
 git clone https://github.com/Common-ka/cursor-unity-rules.git
-```
 
 2. Or manually copy the `.cursor/` folder to your project root:
 
-```
 YourUnityProject/
 ├── .cursor/
 │   ├── index.mdc
@@ -42,13 +39,10 @@ YourUnityProject/
 ├── Assets/
 ├── ProjectSettings/
 └── ...
-```
 
 3. Copy `.vscode/settings.json` to your project:
 
-```
 cp cursor-unity-rules/.vscode/settings.json YourUnityProject/.vscode/
-```
 
 4. Open your project in Cursor IDE
 
@@ -57,3 +51,4 @@ cp cursor-unity-rules/.vscode/settings.json YourUnityProject/.vscode/
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE)
+
