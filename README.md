@@ -1,7 +1,3 @@
-# README.md
-
-```markdown
-
 ## 📋 Description
 
 Production-ready `.cursor/rules` configuration for Unity 6.2+ projects. Modern AI rules system for Cursor IDE (2025) using the new `.mdc` format instead of the deprecated `.cursorrules`.
