@@ -1,12 +1,6 @@
-# README.md for cursor-unity-rules (English)
+# README.md
 
 ```markdown
-# cursor-unity-rules
-
-[![Unity Version](https://img.shields.io/badge/Unity-6.2+-blue)](https://unity.com/)
-[![Cursor IDE](https://img.shields.io/badge/Cursor-IDE-green)](https://cursor.sh/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
-[![Language](https://img.shields.io/badge/Lang-English-blue)](README.md)
 
 ## 📋 Description
 
