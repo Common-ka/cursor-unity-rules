@@ -1,0 +1,69 @@
+---
+alwaysApply: true
+---
+
+# Unity 6.2 Project Rules
+
+## Project Overview
+
+This project uses Unity 6.2 (LTS 2025) with modern systems and architectural approaches.
+
+## Tech Stack
+
+- **Unity Version**: 6.2 LTS (2025)
+- **C# Version**: 12.0
+- **Rendering Pipeline**: URP (Universal Render Pipeline)
+- **Input System**: New Input System (InputSystem package)
+- **UI Framework**: UI Toolkit (not UGUI)
+- **Asset Management**: Addressables
+- **Multiplayer**: Netcode for GameObjects
+- **Testing**: Unity Test Framework
+
+## Architectural Principles
+
+### 1. Modularity
+- Each system must be independent
+- Use ScriptableObject Architecture for configuration
+- Use dependency injection to wire up components
+
+### 2. Performance
+- Object pooling for frequently instantiated objects
+- Addressables instead of Resources
+- ECS/DOTS for performance-critical systems
+- Burst Compiler where applicable
+
+### 3. Maintainability
+- Strict naming conventions
+- XML documentation for public APIs
+- Unit tests for business logic
+- Prefabs for reusable objects
+
+### 4. Code Style
+- Follow the Unity C# Style Guide
+- Use modern C# features (pattern matching, records, init-only properties)
+- async/await instead of coroutines where possible
+
+## Supported Platforms
+
+- Windows (Primary)
+- macOS
+- Linux
+- iOS
+- Android
+- WebGL (limited support)
+
+## Important Rules
+
+✅ **ALWAYS**:
+- New Input System
+- UI Toolkit
+- Addressables
+- [SerializeField] instead of public
+- XML documentation
+
+❌ **NEVER**:
+- Legacy Input
+- UGUI for new UI
+- Resources.Load
+- FindObjectOfType in Update
+- Magic numbers
