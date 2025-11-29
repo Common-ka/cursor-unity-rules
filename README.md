@@ -21,21 +21,20 @@ git clone https://github.com/Common-ka/cursor-unity-rules.git
 2. Or manually copy the `.cursor/` folder to your project root:
 
 YourUnityProject/
-├── .cursor/
-│ ├── index.mdc
-│ └── rules/
-│ ├── unity-core.mdc
-│ ├── unity-input.mdc
-│ ├── unity-performance.mdc
-│ ├── unity-architecture.mdc
-│ ├── unity-ecs.mdc
-│ ├── unity-ui.mdc
-│ ├── unity-networking.mdc
-│ ├── unity-testing.mdc
-│ └── code-organization.mdc
-├── Assets/
-├── ProjectSettings/
-└── ...
++-- .cursor/
+| +-- index.mdc
+| +-- rules/
+| +-- unity-core.mdc
+| +-- unity-input.mdc
+| +-- unity-performance.mdc
+| +-- unity-architecture.mdc
+| +-- unity-ecs.mdc
+| +-- unity-ui.mdc
+| +-- unity-networking.mdc
+| +-- unity-testing.mdc
+| +-- code-organization.mdc
++-- Assets/
++-- ProjectSettings/
 
 3. Copy `.vscode/settings.json` to your project:
 ```
